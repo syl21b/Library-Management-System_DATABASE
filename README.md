@@ -9,15 +9,25 @@ The key components of a library management system include a database to store in
 II.	Database details:
 Assumption:
 •	The library management system has a defined set of rules and regulations regarding the borrowing and returning of books.
+
 •	Library members have provided accurate personal information during registration.
+
 •	The library has a defined system for classifying books into genre.
+
 •	The library has a reliable email service for sending email notifications to members.
+
 •	The library has a defined system for managing and updating passwords for librarians and members.
+
 •	The library has a defined process for updating and maintaining the book catalog and member information.
+
 •	The library has a defined process for removing books and members that are no longer needed in the system.
+
 •	The data for librarians, members, and books are unique and different. No one has the same personal information.
+
 •	The system offers different login methods for librarians and members. Librarians use a User ID and a shared password for system access, while members can create with their own member ID and password. The User ID is identical for both library staff and members and is used by them to log in to their respective library accounts.
+
 •	The User ID cannot be changed. Members can change their password, but the librarians cannot do it since they have a default password which is provided by library.
+
 
 Description of Library Management System:
 •	The library system is designed to offer a wide range of books, with each book having a unique ID and a wealth of information, including its title, ISBN, authors, publishers, genre, and availability. To ensure efficient management, a single librarian can oversee many books, and a book can be lent by one member in a certain time.
